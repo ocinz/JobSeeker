@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JobSeeker</title>
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>JobSeeker</h1>
+    <p>This is a platform to search job across LinkedIn, Indeed, Glassdoor, ZipRecruiter, BeBee and many others</p>
+    <div class="parameter">
+      <input type="text" placeholder="Job" id="job" />
+      <select id="date" name="date">
+        <option value="all">All</option>
+        <option value="today">Today</option>
+        <option value="3days">3 Days</option>
+        <option value="week">Week</option>
+        <option value="month">Month</option>
+      </select>
+      <button type="submit" onclick="searchJob()">Cari</button>
+    </div>
+    <div id="jobs"></div>
+  </body>
+</html>

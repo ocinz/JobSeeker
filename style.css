@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: "lato";
+}
+body {
+  width: 80%;
+  margin: auto;
+  padding: 15px 0;
+  background-color: rgb(21, 21, 21);
+}
+
+#jobs {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  padding-top: 30px;
+}
+.parameter {
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+  margin-top: 15px;
+}
+input {
+  width: 50%;
+  background-color: #acacac;
+  border-radius: 5px;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+}
+input::placeholder {
+  color: black;
+  opacity: 1;
+  text-align: center;
+  font-size: 14px;
+}
+select {
+  width: 20%;
+  background-color: #acacac;
+  border-radius: 5px;
+  color: black;
+  font-size: 14px;
+  text-align: center;
+}
+option {
+  color: black;
+}
+button {
+  width: 25%;
+  border-radius: 5px;
+  background-color: #040047;
+  color: rgb(149, 182, 238);
+  justify-content: center;
+}
+button:active {
+  background-color: #02002a;
+}
+.job {
+  display: flex;
+  column-gap: 10px;
+  min-height: 100px;
+  border: 1px solid #acacac;
+  border-radius: 10px;
+  padding: 10px 20px;
+  background-color: rgb(50, 50, 50);
+}
+div.logo {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+}
+img {
+  width: 80%;
+  height: auto;
+  margin: auto;
+  margin-right: 20px;
+  padding: auto 0;
+}
+.center {
+  width: 50%;
+  padding-right: 50px;
+}
+h2 {
+  font-size: 14px;
+}
+h3 {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+h4 {
+  font-size: 20px;
+  color: #858585;
+}
